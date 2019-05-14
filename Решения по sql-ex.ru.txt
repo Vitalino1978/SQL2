@@ -1,0 +1,40 @@
+№	Задание	Запрос	Результат
+1	Найдите номер модели, скорость и размер жесткого диска для всех ПК стоимостью менее 500 дол. 
+Вывести: model, speed и hd	SELECT MODEL,SPEED,HD FROM PC WHERE PRICE <500 	MODEL	SPEED	HD
+1232	500	10.0
+1232	450	8.0
+1232	450	10.0
+1260	500	10.0
+
+2.	Найдите производителей принтеров. Вывести: maker	SELECT maker FROM Product WHERE type = 'Printer' GROUP BY maker	maker
+A
+D
+E
+
+3.	Найдите номер модели, объем памяти и размеры экранов ПК-блокнотов, цена которых превышает 1000 дол.	SELECT model,ram,screen FROM Laptop WHERE price > 1000	model	ram	screen
+1750	128	14
+1298	64	15
+1752	128	14
+
+4.	Найдите все записи таблицы Printer для цветных принтеров.	SELECT * FROM Printer WHERE color = 'y'	сode	model	color	type	price
+3	1434	y	Jet	290.0000
+2	1433	y	Jet	270.0000
+
+5.	Найдите номер модели, скорость и размер жесткого диска ПК, имеющих 12x или 24x CD и цену менее 600 дол.	SELECT model,speed,hd FROM PC WHERE ( cd = '12x' OR cd = '24x' ) AND price < 600	model	speed	hd
+1232	500	10.0
+1232	450	8.0
+1232	450	10.0
+1260	500	10.0
+
+6.			
+7.			
+8.			
+9.			
+10.			
+
+
+
+
+
+
+

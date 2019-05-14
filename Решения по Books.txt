@@ -1,0 +1,13 @@
+1.   SELECT * FROM BOOKS WHERE хгдюрекэярбн NOT LIKE ▒охреп▓
+2.   SELECT * FROM BOOKS WHERE хгдюрекэярбн NOT LIKE ▒охреп▓ AND WHERE жемю BETWEEN 20 AND 40
+3.   SELECT * FROM BOOKS WHERE хгдюрекэярбн NOT LIKE ▒охреп▓ AND WHERE жемю BETWEEN 20 AND 40 AND WHERE жемю < 10
+4.   SELECT * FROM BOOKS WHERE жемю кхярю < 10
+5.   SELECT * FROM BOOKS WHERE релюрхйю LIKE ▒ноепжхнммше яхряелш▓ AND WHERE хгдюрекэярбн = ▒охреп OR BHV▓
+
+1.   SELECT * FROM BOOKS WHERE мюгбюмхе LIKE ▒VISUAL▓
+2.   SELECT * FROM BOOKS WHERE мюгбюмхе LIKE ▒VISUAL▓ AND NOT LIKE ▒BASIC▓
+3.   SELECT * FROM BOOKS WHERE мюгбюмхе LIKE ▒%[0-9]%▓
+4.   SELECT * FROM BOOKS WHERE мюгбюмхе LIKE ▒%[0-9]%[0-9]%[0-9]%▓
+5.   SELECT * FROM BOOKS WHERE мюгбюмхе LIKE ▒[0-9]%[0-9]%[0-9]%[0-9]▓
+
+
